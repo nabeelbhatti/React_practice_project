@@ -12,6 +12,8 @@ export default class LifeCycleB extends Component {
   static getDerivedStateFromProps(props, state) {
     console.log("LifeCycleB getDerivedStateFromProps");
 
+    
+
     return null;
   }
 
