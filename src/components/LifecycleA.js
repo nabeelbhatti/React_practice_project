@@ -19,11 +19,16 @@ export default class LifecycleA extends Component {
     console.log("LifeCycyleA ComponentDidMount");
   }
 
+  shouldComponentUpdate() {
+    console.log("LifeCycleA ShouldComponentUpdate");
+    return true;
+  }
+
   render() {
     console.log("LifeCycleA render");
     return (
       <div>
-       <LifeCycleB/>
+        <LifeCycleB />
       </div>
     );
   }
