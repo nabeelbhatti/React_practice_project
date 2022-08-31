@@ -18,6 +18,19 @@ export default class LifeCycleB extends Component {
     console.log("LifeCycyleB ComponentDidMount");
   }
 
+  getSnapshotBeforeUpdate(prevProps, PrevState) {
+    console.log("LifeCycleB GetSnapShotBeforeUpdate")
+  }
+
+  componentDidUpdate(prevProps, PrevState, ) {
+    console.log("LifeCycleB ComponentDidUpdate")
+  }
+
+  shouldComponentUpdate() {
+    console.log("LifeCycleB ShouldComponentUpdate");
+    return true;
+  }
+
   render() {
     console.log("LifeCycleB render");
     return (
