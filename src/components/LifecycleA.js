@@ -19,6 +19,14 @@ export default class LifecycleA extends Component {
     console.log("LifeCycyleA ComponentDidMount");
   }
 
+  getSnapshotBeforeUpdate(prevProps, PrevState) {
+    console.log("LifeCycleA GetSnapShotBeforeUpdate")
+  }
+
+  componentDidUpdate(prevProps, PrevState, ) {
+    console.log("LifeCycleA ComponentDidUpdate")
+  }
+
   shouldComponentUpdate() {
     console.log("LifeCycleA ShouldComponentUpdate");
     return true;
