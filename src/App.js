@@ -2,6 +2,7 @@ import "./App.css";
 import Counter from "./components/Counter";
 import EventBind from "./components/EventBind";
 import Form from "./components/Form";
+import FragmentDemo from "./components/FragmentDemo";
 import { FunctionClick } from "./components/FunctionClick";
 // import { HelloWorld } from './components/HelloWorld';
 import { Greek } from "./components/Greek";
@@ -9,6 +10,7 @@ import LifecycleA from "./components/LifecycleA";
 import Message from "./components/Message";
 import Parent from "./components/Parent";
 import StyleSheet from "./components/StyleSheet";
+import Table from "./components/Table";
 import UserGreeting from "./components/UserGreeting";
 // import Welcome from './components/WelCome';
 // import { Hello } from './components/Hello';
@@ -16,6 +18,8 @@ import UserGreeting from "./components/UserGreeting";
 function App() {
   return (
     <div className="App">
+      <Table/>
+      <FragmentDemo/>
       <Form/>
       <Greek name="Nabeel" age="25" heroName="Node Js Developer">
         <p>Hello World I am from Greek Children</p>

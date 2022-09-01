@@ -20,11 +20,12 @@ export default class LifecycleA extends Component {
   }
 
   getSnapshotBeforeUpdate(prevProps, PrevState) {
-    console.log("LifeCycleA GetSnapShotBeforeUpdate")
+    console.log("LifeCycleA GetSnapShotBeforeUpdate");
+    return null;
   }
 
-  componentDidUpdate(prevProps, PrevState, ) {
-    console.log("LifeCycleA ComponentDidUpdate")
+  componentDidUpdate(prevProps, PrevState) {
+    console.log("LifeCycleA ComponentDidUpdate");
   }
 
   shouldComponentUpdate() {
@@ -32,11 +33,19 @@ export default class LifecycleA extends Component {
     return true;
   }
 
+  changeNameState = () => {
+    this.setState({
+      name: "bhatti",
+    });
+  };
+
   render() {
     console.log("LifeCycleA render");
     return (
       <div>
+        <h1>{this.state.name}</h1>
         <LifeCycleB />
+        <button onClick={this.changeNameState}>ChangeName</button>
       </div>
     );
   }
