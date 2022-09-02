@@ -10,6 +10,7 @@ import LifecycleA from "./components/LifecycleA";
 import Message from "./components/Message";
 import Parent from "./components/Parent";
 import ParentComp from "./components/ParentComp";
+import RefsDemo from "./components/RefsDemo";
 import StyleSheet from "./components/StyleSheet";
 import Table from "./components/Table";
 import UserGreeting from "./components/UserGreeting";
@@ -19,6 +20,7 @@ import UserGreeting from "./components/UserGreeting";
 function App() {
   return (
     <div className="App">
+      <RefsDemo/>
       <ParentComp/>
       <Table />
       <FragmentDemo />
