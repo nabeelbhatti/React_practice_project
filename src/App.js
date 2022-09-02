@@ -18,13 +18,13 @@ import UserGreeting from "./components/UserGreeting";
 function App() {
   return (
     <div className="App">
-      <Table/>
-      <FragmentDemo/>
-      <Form/>
+      <Table />
+      <FragmentDemo />
+      <Form />
       <Greek name="Nabeel" age="25" heroName="Node Js Developer">
         <p>Hello World I am from Greek Children</p>
       </Greek>
-      <LifecycleA/>
+      <LifecycleA />
       <UserGreeting />
       <StyleSheet primary={true} />
       <Greek name="Talhas" age="38" heroName="Angualar Developer">
