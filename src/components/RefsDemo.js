@@ -4,6 +4,10 @@ export default class RefsDemo extends Component {
   constructor(props) {
     super(props);
     this.inputRef = React.createRef();
+    this.cbRef = null
+    this.setCbRef = element =>{
+        this.cbRef = element
+    }
   }
 
   componentDidMount = () => {
