@@ -9,6 +9,7 @@ import { Greek } from "./components/Greek";
 import LifecycleA from "./components/LifecycleA";
 import Message from "./components/Message";
 import Parent from "./components/Parent";
+import ParentComp from "./components/ParentComp";
 import StyleSheet from "./components/StyleSheet";
 import Table from "./components/Table";
 import UserGreeting from "./components/UserGreeting";
@@ -18,6 +19,7 @@ import UserGreeting from "./components/UserGreeting";
 function App() {
   return (
     <div className="App">
+      <ParentComp/>
       <Table />
       <FragmentDemo />
       <Form />
