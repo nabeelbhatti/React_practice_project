@@ -4,7 +4,7 @@ export class PureComp extends PureComponent {
   render() {
     return (
       <div>
-        <span>Pure Component</span>
+        <span>{this.props.name}</span>
       </div>
     )
   }

@@ -4,7 +4,7 @@ export default class RegComp extends Component {
   render() {
     return (
       <div>
-        <span>RegularComponent</span>
+        <span>{this.props.name}</span>
       </div>
     )
   }
