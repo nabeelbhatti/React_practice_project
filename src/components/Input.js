@@ -9,6 +9,7 @@ class Input extends Component {
   componentDidMount() {
     this.inputRef.current.focus();
     console.log(this.inputRef);
+    
   }
 
   render() {
