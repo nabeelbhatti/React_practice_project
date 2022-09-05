@@ -1,4 +1,5 @@
 import "./App.css";
+import ClickCounter from "./components/ClickCounter";
 import Counter from "./components/Counter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import EventBind from "./components/EventBind";
@@ -10,6 +11,7 @@ import { FunctionClick } from "./components/FunctionClick";
 // import { HelloWorld } from './components/HelloWorld';
 import { Greek } from "./components/Greek";
 import Hero from "./components/Hero";
+import HoverCounter from "./components/HoverCounter";
 import LifecycleA from "./components/LifecycleA";
 import Message from "./components/Message";
 import Parent from "./components/Parent";
@@ -24,6 +26,8 @@ import UserGreeting from "./components/UserGreeting";
 function App() {
   return (
     <div className="App">
+      <HoverCounter/>
+      <ClickCounter/>
       <ErrorBoundary>
         <Hero heroName="Joker" />
       </ErrorBoundary>
