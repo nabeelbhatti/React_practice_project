@@ -15,6 +15,11 @@ export default class ErrorBoundary extends Component {
       hasError: true,
     };
   }
+
+  componentDidCatch(error, info) {
+    console.log(error)
+    console.log(info)
+  }
   render() {
     if (this.state.hasError) {
       return <h1>Something Went Wrong</h1>;
