@@ -9,7 +9,6 @@ class Input extends Component {
   componentDidMount() {
     this.inputRef.current.focus();
     console.log(this.inputRef);
-    
   }
 
   render() {
@@ -17,6 +16,7 @@ class Input extends Component {
       <div>
         <input type="text" ref={this.inputRef}></input>
       </div>
+      
     );
   }
 }
