@@ -6,7 +6,7 @@ class Input extends Component {
     this.inputRef = React.createRef();
   }
 
-  componentDidMount() {
+  focusInput() {
     this.inputRef.current.focus();
     console.log(this.inputRef);
   }
@@ -16,7 +16,7 @@ class Input extends Component {
       <div>
         <input type="text" ref={this.inputRef}></input>
       </div>
-      
+
     );
   }
 }

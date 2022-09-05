@@ -1,6 +1,7 @@
 import "./App.css";
 import Counter from "./components/Counter";
 import EventBind from "./components/EventBind";
+import FocusInput from "./components/FocusInput";
 import Form from "./components/Form";
 import FragmentDemo from "./components/FragmentDemo";
 import { FunctionClick } from "./components/FunctionClick";
@@ -20,6 +21,7 @@ import UserGreeting from "./components/UserGreeting";
 function App() {
   return (
     <div className="App">
+      <FocusInput/>
       <RefsDemo/>
       <ParentComp/>
       <Table />
