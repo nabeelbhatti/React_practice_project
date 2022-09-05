@@ -4,6 +4,7 @@ import EventBind from "./components/EventBind";
 import FocusInput from "./components/FocusInput";
 import Form from "./components/Form";
 import FragmentDemo from "./components/FragmentDemo";
+import FRParent from "./components/FRParent";
 import { FunctionClick } from "./components/FunctionClick";
 // import { HelloWorld } from './components/HelloWorld';
 import { Greek } from "./components/Greek";
@@ -21,9 +22,10 @@ import UserGreeting from "./components/UserGreeting";
 function App() {
   return (
     <div className="App">
-      <FocusInput/>
-      <RefsDemo/>
-      <ParentComp/>
+      <FRParent />
+      <FocusInput />
+      <RefsDemo />
+      <ParentComp />
       <Table />
       <FragmentDemo />
       <Form />
