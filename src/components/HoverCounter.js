@@ -13,6 +13,7 @@ export default class HoverCounter extends Component {
     this.setState((prevState) => {
       return {
         count: prevState.count + 1,
+        
       };
     });
   };
@@ -20,7 +21,6 @@ export default class HoverCounter extends Component {
     return (
       <div>
         <h2 onMouseOver={this.icrementCount}>Hover {this.state.count} times</h2>
-        
       </div>
     );
   }
