@@ -26,8 +26,8 @@ import UserGreeting from "./components/UserGreeting";
 function App() {
   return (
     <div className="App">
-      <HoverCounter/>
-      <ClickCounter/>
+      <HoverCounter />
+      <ClickCounter />
       <ErrorBoundary>
         <Hero heroName="Joker" />
       </ErrorBoundary>
