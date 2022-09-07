@@ -1,5 +1,6 @@
 import "./App.css";
 import ClickCounter from "./components/ClickCounter";
+import ClickCounterTwo from "./components/ClickCounterTwo";
 import Counter from "./components/Counter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import EventBind from "./components/EventBind";
@@ -26,6 +27,8 @@ import UserGreeting from "./components/UserGreeting";
 function App() {
   return (
     <div className="App">
+      
+      <ClickCounterTwo/>
       <HoverCounter />
       <ClickCounter />
       <ErrorBoundary>
