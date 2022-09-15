@@ -36,6 +36,7 @@ function App() {
       </ErrorBoundary>
       <ErrorBoundary>
         <Hero heroName="Batman" />
+        
       </ErrorBoundary>
       <FRParent />
       <FocusInput />
