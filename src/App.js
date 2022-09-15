@@ -27,8 +27,7 @@ import UserGreeting from "./components/UserGreeting";
 function App() {
   return (
     <div className="App">
-      
-      <ClickCounterTwo/>
+      <ClickCounterTwo />
       <HoverCounter />
       <ClickCounter />
       <ErrorBoundary>
@@ -36,7 +35,6 @@ function App() {
       </ErrorBoundary>
       <ErrorBoundary>
         <Hero heroName="Batman" />
-        
       </ErrorBoundary>
       <FRParent />
       <FocusInput />
