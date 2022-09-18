@@ -8,12 +8,11 @@ class Input extends Component {
 
   focusInput() {
     this.inputRef.current.focus();
-    console.log(this.inputRef);
   }
 
   render() {
     return (
-      
+
       <div>
         <input type="text" ref={this.inputRef}></input>
         {/* hello World */}
