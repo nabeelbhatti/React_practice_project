@@ -16,7 +16,6 @@ class Input extends Component {
       <div>
         <input type="text" ref={this.inputRef}></input>
       </div>
-
     );
   }
 }
