@@ -12,6 +12,7 @@ import { FunctionClick } from "./components/FunctionClick";
 // import { HelloWorld } from './components/HelloWorld';
 import { Greek } from "./components/Greek";
 import Hero from "./components/Hero";
+import Hookcounter from "./components/Hookcounter";
 import HoverCounter from "./components/HoverCounter";
 import LifecycleA from "./components/LifecycleA";
 import Message from "./components/Message";
@@ -27,6 +28,7 @@ import UserGreeting from "./components/UserGreeting";
 function App() {
   return (
     <div className="App">
+      <Hookcounter/>
       <ClickCounterTwo />
       <HoverCounter />
       <ClickCounter />
